@@ -1,0 +1,3267 @@
+[gd_scene load_steps=31 format=1]
+
+[ext_resource path="res://img/life/boobies.png" type="Texture" id=1]
+[ext_resource path="res://img/life/rightshoulder.png" type="Texture" id=2]
+[ext_resource path="res://img/life/belly.png" type="Texture" id=3]
+[ext_resource path="res://img/life/pantsu.png" type="Texture" id=4]
+[ext_resource path="res://img/life/rightthigh.png" type="Texture" id=5]
+[ext_resource path="res://img/life/rightshin.png" type="Texture" id=6]
+[ext_resource path="res://img/life/leftthigh.png" type="Texture" id=7]
+[ext_resource path="res://img/life/leftshin.png" type="Texture" id=8]
+[ext_resource path="res://img/life/rightbicep.png" type="Texture" id=9]
+[ext_resource path="res://img/life/rightforearm.png" type="Texture" id=10]
+[ext_resource path="res://img/life/leftshoulder.png" type="Texture" id=11]
+[ext_resource path="res://img/life/leftbicep.png" type="Texture" id=12]
+[ext_resource path="res://img/life/leftforearm.png" type="Texture" id=13]
+[ext_resource path="res://img/life/head.png" type="Texture" id=14]
+[ext_resource path="res://img/life/righthair.png" type="Texture" id=15]
+[ext_resource path="res://img/life/lefthair.png" type="Texture" id=16]
+[ext_resource path="res://img/life/bang.png" type="Texture" id=17]
+[ext_resource path="res://img/life/ear.png" type="Texture" id=18]
+[ext_resource path="res://img/life/mouth.png" type="Texture" id=19]
+[ext_resource path="res://img/life/fronthair.png" type="Texture" id=20]
+[ext_resource path="res://img/life/righteye.png" type="Texture" id=21]
+[ext_resource path="res://img/life/rightpupil.png" type="Texture" id=22]
+[ext_resource path="res://img/life/lefteye.png" type="Texture" id=23]
+[ext_resource path="res://img/life/leftpupil.png" type="Texture" id=24]
+[ext_resource path="res://img/life/nose.png" type="Texture" id=25]
+[ext_resource path="res://img/life/righteyebrow.png" type="Texture" id=26]
+[ext_resource path="res://img/life/lefteyebrow.png" type="Texture" id=27]
+
+[sub_resource type="Animation" id=1]
+
+resource/name = "default"
+length = 1.0
+loop = false
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("boobies:transform/pos")
+tracks/0/interp = 1
+tracks/0/imported = false
+tracks/0/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 3.42566, -6.63197 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("boobies:transform/rot")
+tracks/1/interp = 1
+tracks/1/imported = false
+tracks/1/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("boobies:transform/scale")
+tracks/2/interp = 1
+tracks/2/imported = false
+tracks/2/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("boobies/leftbicep/leftforearm/Position2D:transform/pos")
+tracks/3/interp = 1
+tracks/3/imported = false
+tracks/3/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( -33.9808, 38.6037 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("boobies/leftbicep/leftforearm/Position2D:transform/rot")
+tracks/4/interp = 1
+tracks/4/imported = false
+tracks/4/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("boobies/leftbicep/leftforearm/Position2D:transform/scale")
+tracks/5/interp = 1
+tracks/5/imported = false
+tracks/5/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("boobies/leftbicep/leftforearm:transform/pos")
+tracks/6/interp = 1
+tracks/6/imported = false
+tracks/6/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( -31.609, 19.8475 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("boobies/leftbicep/leftforearm:transform/rot")
+tracks/7/interp = 1
+tracks/7/imported = false
+tracks/7/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("boobies/leftbicep/leftforearm:transform/scale")
+tracks/8/interp = 1
+tracks/8/imported = false
+tracks/8/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("boobies/belly:transform/pos")
+tracks/9/interp = 1
+tracks/9/imported = false
+tracks/9/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1.47021, 4.41057 ) ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("boobies/belly:transform/rot")
+tracks/10/interp = 1
+tracks/10/imported = false
+tracks/10/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/11/type = "value"
+tracks/11/path = NodePath("boobies/belly:transform/scale")
+tracks/11/interp = 1
+tracks/11/imported = false
+tracks/11/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/12/type = "value"
+tracks/12/path = NodePath("boobies/head/hair/bang:transform/pos")
+tracks/12/interp = 1
+tracks/12/imported = false
+tracks/12/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.628115, -28.9094 ) ]
+}
+tracks/13/type = "value"
+tracks/13/path = NodePath("boobies/head/hair/bang:transform/rot")
+tracks/13/interp = 1
+tracks/13/imported = false
+tracks/13/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/14/type = "value"
+tracks/14/path = NodePath("boobies/head/hair/bang:transform/scale")
+tracks/14/interp = 1
+tracks/14/imported = false
+tracks/14/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/15/type = "value"
+tracks/15/path = NodePath("boobies/head/ear:transform/pos")
+tracks/15/interp = 1
+tracks/15/imported = false
+tracks/15/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( -28.4781, -27.0272 ) ]
+}
+tracks/16/type = "value"
+tracks/16/path = NodePath("boobies/head/ear:transform/rot")
+tracks/16/interp = 1
+tracks/16/imported = false
+tracks/16/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/17/type = "value"
+tracks/17/path = NodePath("boobies/head/ear:transform/scale")
+tracks/17/interp = 1
+tracks/17/imported = false
+tracks/17/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/18/type = "value"
+tracks/18/path = NodePath("boobies/head/fronthair:transform/pos")
+tracks/18/interp = 1
+tracks/18/imported = false
+tracks/18/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( -10.5586, -47.5818 ) ]
+}
+tracks/19/type = "value"
+tracks/19/path = NodePath("boobies/head/fronthair:transform/rot")
+tracks/19/interp = 1
+tracks/19/imported = false
+tracks/19/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/20/type = "value"
+tracks/20/path = NodePath("boobies/head/fronthair:transform/scale")
+tracks/20/interp = 1
+tracks/20/imported = false
+tracks/20/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/21/type = "value"
+tracks/21/path = NodePath("boobies/head:transform/pos")
+tracks/21/interp = 1
+tracks/21/imported = false
+tracks/21/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( -2.94037, -45.5758 ) ]
+}
+tracks/22/type = "value"
+tracks/22/path = NodePath("boobies/head:transform/rot")
+tracks/22/interp = 1
+tracks/22/imported = false
+tracks/22/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/23/type = "value"
+tracks/23/path = NodePath("boobies/head:transform/scale")
+tracks/23/interp = 1
+tracks/23/imported = false
+tracks/23/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/24/type = "value"
+tracks/24/path = NodePath("boobies/belly/pantsu/rightthigh:transform/pos")
+tracks/24/interp = 1
+tracks/24/imported = false
+tracks/24/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 14.5533, 2.79819 ) ]
+}
+tracks/25/type = "value"
+tracks/25/path = NodePath("boobies/belly/pantsu/rightthigh:transform/rot")
+tracks/25/interp = 1
+tracks/25/imported = false
+tracks/25/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/26/type = "value"
+tracks/26/path = NodePath("boobies/belly/pantsu/rightthigh:transform/scale")
+tracks/26/interp = 1
+tracks/26/imported = false
+tracks/26/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/27/type = "value"
+tracks/27/path = NodePath("boobies/head/lefteye:transform/pos")
+tracks/27/interp = 1
+tracks/27/imported = false
+tracks/27/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 2.35389, -39.9397 ) ]
+}
+tracks/28/type = "value"
+tracks/28/path = NodePath("boobies/head/lefteye:transform/rot")
+tracks/28/interp = 1
+tracks/28/imported = false
+tracks/28/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/29/type = "value"
+tracks/29/path = NodePath("boobies/head/lefteye:transform/scale")
+tracks/29/interp = 1
+tracks/29/imported = false
+tracks/29/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/30/type = "value"
+tracks/30/path = NodePath("boobies/leftbicep:transform/pos")
+tracks/30/interp = 1
+tracks/30/imported = false
+tracks/30/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( -22.7879, -29.4038 ) ]
+}
+tracks/31/type = "value"
+tracks/31/path = NodePath("boobies/leftbicep:transform/rot")
+tracks/31/interp = 1
+tracks/31/imported = false
+tracks/31/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/32/type = "value"
+tracks/32/path = NodePath("boobies/leftbicep:transform/scale")
+tracks/32/interp = 1
+tracks/32/imported = false
+tracks/32/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/33/type = "value"
+tracks/33/path = NodePath("boobies/head/righteyebrow:transform/pos")
+tracks/33/interp = 1
+tracks/33/imported = false
+tracks/33/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 23.1721, -67.873 ) ]
+}
+tracks/34/type = "value"
+tracks/34/path = NodePath("boobies/head/righteyebrow:transform/rot")
+tracks/34/interp = 1
+tracks/34/imported = false
+tracks/34/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/35/type = "value"
+tracks/35/path = NodePath("boobies/head/righteyebrow:transform/scale")
+tracks/35/interp = 1
+tracks/35/imported = false
+tracks/35/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/36/type = "value"
+tracks/36/path = NodePath("boobies/head/hair/lefthair:transform/pos")
+tracks/36/interp = 1
+tracks/36/imported = false
+tracks/36/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( -20.6896, -20.0883 ) ]
+}
+tracks/37/type = "value"
+tracks/37/path = NodePath("boobies/head/hair/lefthair:transform/rot")
+tracks/37/interp = 1
+tracks/37/imported = false
+tracks/37/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/38/type = "value"
+tracks/38/path = NodePath("boobies/head/hair/lefthair:transform/scale")
+tracks/38/interp = 1
+tracks/38/imported = false
+tracks/38/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/39/type = "value"
+tracks/39/path = NodePath("boobies/belly/pantsu/leftthigh/leftshin:transform/pos")
+tracks/39/interp = 1
+tracks/39/imported = false
+tracks/39/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 31.6091 ) ]
+}
+tracks/40/type = "value"
+tracks/40/path = NodePath("boobies/belly/pantsu/leftthigh/leftshin:transform/rot")
+tracks/40/interp = 1
+tracks/40/imported = false
+tracks/40/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/41/type = "value"
+tracks/41/path = NodePath("boobies/belly/pantsu/leftthigh/leftshin:transform/scale")
+tracks/41/interp = 1
+tracks/41/imported = false
+tracks/41/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/42/type = "value"
+tracks/42/path = NodePath("boobies/belly/pantsu/leftthigh:transform/pos")
+tracks/42/interp = 1
+tracks/42/imported = false
+tracks/42/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( -11.9101, 7.20876 ) ]
+}
+tracks/43/type = "value"
+tracks/43/path = NodePath("boobies/belly/pantsu/leftthigh:transform/rot")
+tracks/43/interp = 1
+tracks/43/imported = false
+tracks/43/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/44/type = "value"
+tracks/44/path = NodePath("boobies/belly/pantsu/leftthigh:transform/scale")
+tracks/44/interp = 1
+tracks/44/imported = false
+tracks/44/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/45/type = "value"
+tracks/45/path = NodePath("boobies/head/lefteyebrow:transform/pos")
+tracks/45/interp = 1
+tracks/45/imported = false
+tracks/45/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( -3.97061, -68.1365 ) ]
+}
+tracks/46/type = "value"
+tracks/46/path = NodePath("boobies/head/lefteyebrow:transform/rot")
+tracks/46/interp = 1
+tracks/46/imported = false
+tracks/46/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/47/type = "value"
+tracks/47/path = NodePath("boobies/head/lefteyebrow:transform/scale")
+tracks/47/interp = 1
+tracks/47/imported = false
+tracks/47/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/48/type = "value"
+tracks/48/path = NodePath("boobies/leftshoulder:transform/pos")
+tracks/48/interp = 1
+tracks/48/imported = false
+tracks/48/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( -21.4046, -29.3856 ) ]
+}
+tracks/49/type = "value"
+tracks/49/path = NodePath("boobies/leftshoulder:transform/rot")
+tracks/49/interp = 1
+tracks/49/imported = false
+tracks/49/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/50/type = "value"
+tracks/50/path = NodePath("boobies/leftshoulder:transform/scale")
+tracks/50/interp = 1
+tracks/50/imported = false
+tracks/50/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/51/type = "value"
+tracks/51/path = NodePath("boobies/head/nose:transform/pos")
+tracks/51/interp = 1
+tracks/51/imported = false
+tracks/51/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 21.3274, -23.3379 ) ]
+}
+tracks/52/type = "value"
+tracks/52/path = NodePath("boobies/head/nose:transform/rot")
+tracks/52/interp = 1
+tracks/52/imported = false
+tracks/52/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/53/type = "value"
+tracks/53/path = NodePath("boobies/head/nose:transform/scale")
+tracks/53/interp = 1
+tracks/53/imported = false
+tracks/53/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/54/type = "value"
+tracks/54/path = NodePath("boobies/head/mouth:transform/pos")
+tracks/54/interp = 1
+tracks/54/imported = false
+tracks/54/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 9.73248, -13.0606 ) ]
+}
+tracks/55/type = "value"
+tracks/55/path = NodePath("boobies/head/mouth:transform/rot")
+tracks/55/interp = 1
+tracks/55/imported = false
+tracks/55/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/56/type = "value"
+tracks/56/path = NodePath("boobies/head/mouth:transform/scale")
+tracks/56/interp = 1
+tracks/56/imported = false
+tracks/56/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/57/type = "value"
+tracks/57/path = NodePath("boobies/belly/pantsu:transform/pos")
+tracks/57/interp = 1
+tracks/57/imported = false
+tracks/57/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( -2.05668, 27.3407 ) ]
+}
+tracks/58/type = "value"
+tracks/58/path = NodePath("boobies/belly/pantsu:transform/rot")
+tracks/58/interp = 1
+tracks/58/imported = false
+tracks/58/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/59/type = "value"
+tracks/59/path = NodePath("boobies/belly/pantsu:transform/scale")
+tracks/59/interp = 1
+tracks/59/imported = false
+tracks/59/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/60/type = "value"
+tracks/60/path = NodePath("boobies/rightbicep:transform/pos")
+tracks/60/interp = 1
+tracks/60/imported = false
+tracks/60/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 10.2913, -27.9336 ) ]
+}
+tracks/61/type = "value"
+tracks/61/path = NodePath("boobies/rightbicep:transform/rot")
+tracks/61/interp = 1
+tracks/61/imported = false
+tracks/61/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/62/type = "value"
+tracks/62/path = NodePath("boobies/rightbicep:transform/scale")
+tracks/62/interp = 1
+tracks/62/imported = false
+tracks/62/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/63/type = "value"
+tracks/63/path = NodePath("boobies/head/righteye:transform/pos")
+tracks/63/interp = 1
+tracks/63/imported = false
+tracks/63/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 22.645, -40.2033 ) ]
+}
+tracks/64/type = "value"
+tracks/64/path = NodePath("boobies/head/righteye:transform/rot")
+tracks/64/interp = 1
+tracks/64/imported = false
+tracks/64/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/65/type = "value"
+tracks/65/path = NodePath("boobies/head/righteye:transform/scale")
+tracks/65/interp = 1
+tracks/65/imported = false
+tracks/65/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/66/type = "value"
+tracks/66/path = NodePath("boobies/rightbicep/rightforearm:transform/pos")
+tracks/66/interp = 1
+tracks/66/imported = false
+tracks/66/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 20.5826, 19.8475 ) ]
+}
+tracks/67/type = "value"
+tracks/67/path = NodePath("boobies/rightbicep/rightforearm:transform/rot")
+tracks/67/interp = 1
+tracks/67/imported = false
+tracks/67/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/68/type = "value"
+tracks/68/path = NodePath("boobies/rightbicep/rightforearm:transform/scale")
+tracks/68/interp = 1
+tracks/68/imported = false
+tracks/68/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/69/type = "value"
+tracks/69/path = NodePath("boobies/head/hair/righthair:transform/pos")
+tracks/69/interp = 1
+tracks/69/imported = false
+tracks/69/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 12.3897, -9.06188 ) ]
+}
+tracks/70/type = "value"
+tracks/70/path = NodePath("boobies/head/hair/righthair:transform/rot")
+tracks/70/interp = 1
+tracks/70/imported = false
+tracks/70/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/71/type = "value"
+tracks/71/path = NodePath("boobies/head/hair/righthair:transform/scale")
+tracks/71/interp = 1
+tracks/71/imported = false
+tracks/71/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/72/type = "value"
+tracks/72/path = NodePath("boobies/rightshoulder:transform/pos")
+tracks/72/interp = 1
+tracks/72/imported = false
+tracks/72/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 9.42732, -28.8586 ) ]
+}
+tracks/73/type = "value"
+tracks/73/path = NodePath("boobies/rightshoulder:transform/rot")
+tracks/73/interp = 1
+tracks/73/imported = false
+tracks/73/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/74/type = "value"
+tracks/74/path = NodePath("boobies/rightshoulder:transform/scale")
+tracks/74/interp = 1
+tracks/74/imported = false
+tracks/74/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/75/type = "value"
+tracks/75/path = NodePath("boobies/belly/pantsu/rightthigh/rightshin:transform/pos")
+tracks/75/interp = 1
+tracks/75/imported = false
+tracks/75/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 13.2317, 33.0793 ) ]
+}
+tracks/76/type = "value"
+tracks/76/path = NodePath("boobies/belly/pantsu/rightthigh/rightshin:transform/rot")
+tracks/76/interp = 1
+tracks/76/imported = false
+tracks/76/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/77/type = "value"
+tracks/77/path = NodePath("boobies/belly/pantsu/rightthigh/rightshin:transform/scale")
+tracks/77/interp = 1
+tracks/77/imported = false
+tracks/77/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/78/type = "value"
+tracks/78/path = NodePath("boobies/rightbicep/rightforearm/Position2D:transform/pos")
+tracks/78/interp = 1
+tracks/78/imported = false
+tracks/78/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 36.2072, 31.1884 ) ]
+}
+tracks/79/type = "value"
+tracks/79/path = NodePath("boobies/rightbicep/rightforearm/Position2D:transform/rot")
+tracks/79/interp = 1
+tracks/79/imported = false
+tracks/79/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/80/type = "value"
+tracks/80/path = NodePath("boobies/rightbicep/rightforearm/Position2D:transform/scale")
+tracks/80/interp = 1
+tracks/80/imported = false
+tracks/80/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/81/type = "value"
+tracks/81/path = NodePath("boobies/belly/pantsu/rightthigh/rightshin/Position2D:transform/pos")
+tracks/81/interp = 1
+tracks/81/imported = false
+tracks/81/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( -11.1131, 85.6784 ) ]
+}
+tracks/82/type = "value"
+tracks/82/path = NodePath("boobies/belly/pantsu/rightthigh/rightshin/Position2D:transform/rot")
+tracks/82/interp = 1
+tracks/82/imported = false
+tracks/82/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/83/type = "value"
+tracks/83/path = NodePath("boobies/belly/pantsu/rightthigh/rightshin/Position2D:transform/scale")
+tracks/83/interp = 1
+tracks/83/imported = false
+tracks/83/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/84/type = "value"
+tracks/84/path = NodePath("boobies/head/hair:transform/pos")
+tracks/84/interp = 1
+tracks/84/imported = false
+tracks/84/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 5.25262, -36.514 ) ]
+}
+tracks/85/type = "value"
+tracks/85/path = NodePath("boobies/head/hair:transform/rot")
+tracks/85/interp = 1
+tracks/85/imported = false
+tracks/85/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/86/type = "value"
+tracks/86/path = NodePath("boobies/head/hair:transform/scale")
+tracks/86/interp = 1
+tracks/86/imported = false
+tracks/86/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/87/type = "value"
+tracks/87/path = NodePath("boobies/belly/pantsu/leftthigh/leftshin/Position2D:transform/pos")
+tracks/87/interp = 1
+tracks/87/imported = false
+tracks/87/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( -4.66034, 85.6784 ) ]
+}
+tracks/88/type = "value"
+tracks/88/path = NodePath("boobies/belly/pantsu/leftthigh/leftshin/Position2D:transform/rot")
+tracks/88/interp = 1
+tracks/88/imported = false
+tracks/88/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/89/type = "value"
+tracks/89/path = NodePath("boobies/belly/pantsu/leftthigh/leftshin/Position2D:transform/scale")
+tracks/89/interp = 1
+tracks/89/imported = false
+tracks/89/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/90/type = "value"
+tracks/90/path = NodePath("boobies/head/Position2D:transform/pos")
+tracks/90/interp = 1
+tracks/90/imported = false
+tracks/90/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 5.01862, -20.0753 ) ]
+}
+tracks/91/type = "value"
+tracks/91/path = NodePath("boobies/head/Position2D:transform/rot")
+tracks/91/interp = 1
+tracks/91/imported = false
+tracks/91/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/92/type = "value"
+tracks/92/path = NodePath("boobies/head/Position2D:transform/scale")
+tracks/92/interp = 1
+tracks/92/imported = false
+tracks/92/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+
+resource/name = "die"
+length = 1.5
+loop = false
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("boobies/head/hair/righthair:transform/pos")
+tracks/0/interp = 1
+tracks/0/imported = false
+tracks/0/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 7.66774, -7.81355 ), Vector2( 6.82536, -7.12549 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("boobies/head/hair/righthair:transform/rot")
+tracks/1/interp = 1
+tracks/1/imported = false
+tracks/1/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 9.01076 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("boobies/head/hair/righthair:transform/scale")
+tracks/2/interp = 1
+tracks/2/imported = false
+tracks/2/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.881182, 1.07944 ), Vector2( 0.859985, 1.12322 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("boobies/belly/pantsu/leftthigh:transform/pos")
+tracks/3/interp = 1
+tracks/3/imported = false
+tracks/3/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -12.7823, 7.19843 ), Vector2( -12.7823, 7.19843 ), Vector2( 32.2782, 75.3223 ), Vector2( -70.1821, -37.1146 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("boobies/belly/pantsu/leftthigh:transform/rot")
+tracks/4/interp = 1
+tracks/4/imported = false
+tracks/4/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 7.5791, 14.8283, 40.8338, 85.9991 ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("boobies/belly/pantsu/leftthigh:transform/scale")
+tracks/5/interp = 1
+tracks/5/imported = false
+tracks/5/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.948205, 1 ), Vector2( 0.948205, 1 ), Vector2( 0.948205, 1 ), Vector2( 0.948205, 1 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("boobies/belly:transform/pos")
+tracks/6/interp = 1
+tracks/6/imported = false
+tracks/6/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 3.08509, 5.82444 ), Vector2( 2.13512, 4.89812 ), Vector2( 25.8358, 85.8825 ), Vector2( -44.0296, 129.436 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("boobies/belly:transform/rot")
+tracks/7/interp = 1
+tracks/7/imported = false
+tracks/7/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -22.0348, 11.6245, -36.9673, -81.0387 ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("boobies/belly:transform/scale")
+tracks/8/interp = 1
+tracks/8/imported = false
+tracks/8/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("boobies:transform/pos")
+tracks/9/interp = 1
+tracks/9/imported = false
+tracks/9/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 3.42566, -6.63197 ), Vector2( -21.121, -7.29539 ), Vector2( -49.2617, -83.934 ), Vector2( -46.2617, 123.067 ) ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("boobies:transform/rot")
+tracks/10/interp = 1
+tracks/10/imported = false
+tracks/10/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 35.0467, 44.2778, 107.988, 107.988 ]
+}
+tracks/11/type = "value"
+tracks/11/path = NodePath("boobies:transform/scale")
+tracks/11/interp = 1
+tracks/11/imported = false
+tracks/11/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/12/type = "value"
+tracks/12/path = NodePath("boobies/belly/pantsu/leftthigh/leftshin:transform/pos")
+tracks/12/interp = 1
+tracks/12/imported = false
+tracks/12/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1, 1.2, 1.3, 1.4 ),
+"transitions": FloatArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0, 31.6091 ), Vector2( 0, 31.6091 ), Vector2( 3.25565, 119.713 ), Vector2( -28.618, 43.9531 ), Vector2( 124.969, 16.3609 ), Vector2( 86.2176, 0.171789 ), Vector2( 61.3417, -154.133 ) ]
+}
+tracks/13/type = "value"
+tracks/13/path = NodePath("boobies/belly/pantsu/leftthigh/leftshin:transform/rot")
+tracks/13/interp = 1
+tracks/13/imported = false
+tracks/13/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1, 1.2, 1.3, 1.4 ),
+"transitions": FloatArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 15.568, 15.568, -16.2175, -189.301, -74.4483, -191.952, 13.2833 ]
+}
+tracks/14/type = "value"
+tracks/14/path = NodePath("boobies/belly/pantsu/leftthigh/leftshin:transform/scale")
+tracks/14/interp = 1
+tracks/14/imported = false
+tracks/14/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1, 1.2, 1.3, 1.4 ),
+"transitions": FloatArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/15/type = "value"
+tracks/15/path = NodePath("boobies/head/Position2D:transform/pos")
+tracks/15/interp = 1
+tracks/15/imported = false
+tracks/15/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 5.01862, -20.0753 ), Vector2( 5.01862, -20.0753 ) ]
+}
+tracks/16/type = "value"
+tracks/16/path = NodePath("boobies/head/Position2D:transform/rot")
+tracks/16/interp = 1
+tracks/16/imported = false
+tracks/16/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/17/type = "value"
+tracks/17/path = NodePath("boobies/head/Position2D:transform/scale")
+tracks/17/interp = 1
+tracks/17/imported = false
+tracks/17/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/18/type = "value"
+tracks/18/path = NodePath("boobies/belly/pantsu/rightthigh/rightshin/Position2D:transform/pos")
+tracks/18/interp = 1
+tracks/18/imported = false
+tracks/18/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -11.1131, 85.6784 ), Vector2( -11.1131, 85.6784 ) ]
+}
+tracks/19/type = "value"
+tracks/19/path = NodePath("boobies/belly/pantsu/rightthigh/rightshin/Position2D:transform/rot")
+tracks/19/interp = 1
+tracks/19/imported = false
+tracks/19/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/20/type = "value"
+tracks/20/path = NodePath("boobies/belly/pantsu/rightthigh/rightshin/Position2D:transform/scale")
+tracks/20/interp = 1
+tracks/20/imported = false
+tracks/20/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/21/type = "value"
+tracks/21/path = NodePath("boobies/belly/pantsu/rightthigh/rightshin:transform/pos")
+tracks/21/interp = 1
+tracks/21/imported = false
+tracks/21/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1, 1.2, 1.3, 1.4, 1.5 ),
+"transitions": FloatArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 11.6513, 37.0308 ), Vector2( 12.4108, 36.049 ), Vector2( 11.3856, 106.627 ), Vector2( 21.6466, 83.4667 ), Vector2( -37.223, 90.4482 ), Vector2( 27.3604, 75.882 ), Vector2( -3.49864, 23.3588 ), Vector2( -3.49864, 23.3588 ) ]
+}
+tracks/22/type = "value"
+tracks/22/path = NodePath("boobies/belly/pantsu/rightthigh/rightshin:transform/rot")
+tracks/22/interp = 1
+tracks/22/imported = false
+tracks/22/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1, 1.2, 1.3, 1.4, 1.5 ),
+"transitions": FloatArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -66.6711, 14.0018, -43.128, 261.845, 159.553, 274.146, 331.64, 386.895 ]
+}
+tracks/23/type = "value"
+tracks/23/path = NodePath("boobies/belly/pantsu/rightthigh/rightshin:transform/scale")
+tracks/23/interp = 1
+tracks/23/imported = false
+tracks/23/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1, 1.2, 1.3, 1.4, 1.5 ),
+"transitions": FloatArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1.02287, 1.02178 ), Vector2( 1.02287, 1.02178 ), Vector2( 1.02287, 1.02178 ), Vector2( 1.02287, 1.02178 ), Vector2( 1.02287, 1.02178 ), Vector2( 1.02287, 1.02178 ), Vector2( 1.02287, 1.02178 ), Vector2( 1.02287, 1.02178 ) ]
+}
+tracks/24/type = "value"
+tracks/24/path = NodePath("boobies/head:transform/pos")
+tracks/24/interp = 1
+tracks/24/imported = false
+tracks/24/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1, 1.2, 1.3, 1.4, 1.5 ),
+"transitions": FloatArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -2.94037, -45.5758 ), Vector2( -2.94037, -45.5758 ), Vector2( 228.245, 175.571 ), Vector2( 10.1257, 104.521 ), Vector2( 81.3319, 35.3576 ), Vector2( 60.5628, -79.9605 ), Vector2( 37.7457, -118.583 ), Vector2( 76.8485, -133.228 ) ]
+}
+tracks/25/type = "value"
+tracks/25/path = NodePath("boobies/head:transform/rot")
+tracks/25/interp = 1
+tracks/25/imported = false
+tracks/25/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1, 1.2, 1.3, 1.4, 1.5 ),
+"transitions": FloatArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -25.5399, -25.5399, -55.5576, -18.8313, 79.5205, 204.012, 291.057, 378.102 ]
+}
+tracks/26/type = "value"
+tracks/26/path = NodePath("boobies/head:transform/scale")
+tracks/26/interp = 1
+tracks/26/imported = false
+tracks/26/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1, 1.2, 1.3, 1.4, 1.5 ),
+"transitions": FloatArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/27/type = "value"
+tracks/27/path = NodePath("boobies/rightshoulder:transform/pos")
+tracks/27/interp = 1
+tracks/27/imported = false
+tracks/27/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 9.42732, -28.8586 ), Vector2( 9.42732, -28.8586 ) ]
+}
+tracks/28/type = "value"
+tracks/28/path = NodePath("boobies/rightshoulder:transform/rot")
+tracks/28/interp = 1
+tracks/28/imported = false
+tracks/28/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/29/type = "value"
+tracks/29/path = NodePath("boobies/rightshoulder:transform/scale")
+tracks/29/interp = 1
+tracks/29/imported = false
+tracks/29/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/30/type = "value"
+tracks/30/path = NodePath("boobies/leftbicep/leftforearm/Position2D:transform/pos")
+tracks/30/interp = 1
+tracks/30/imported = false
+tracks/30/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -33.9808, 38.6037 ), Vector2( -33.9808, 38.6037 ) ]
+}
+tracks/31/type = "value"
+tracks/31/path = NodePath("boobies/leftbicep/leftforearm/Position2D:transform/rot")
+tracks/31/interp = 1
+tracks/31/imported = false
+tracks/31/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/32/type = "value"
+tracks/32/path = NodePath("boobies/leftbicep/leftforearm/Position2D:transform/scale")
+tracks/32/interp = 1
+tracks/32/imported = false
+tracks/32/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/33/type = "value"
+tracks/33/path = NodePath("boobies/leftbicep/leftforearm:transform/pos")
+tracks/33/interp = 1
+tracks/33/imported = false
+tracks/33/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -34.3019, 20.3991 ), Vector2( -34.3019, 20.3991 ), Vector2( -82.7906, 54.9992 ), Vector2( -62.354, 38.8949 ) ]
+}
+tracks/34/type = "value"
+tracks/34/path = NodePath("boobies/leftbicep/leftforearm:transform/rot")
+tracks/34/interp = 1
+tracks/34/imported = false
+tracks/34/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 34.5724, -8.58481, -25.3385, 147.662 ]
+}
+tracks/35/type = "value"
+tracks/35/path = NodePath("boobies/leftbicep/leftforearm:transform/scale")
+tracks/35/interp = 1
+tracks/35/imported = false
+tracks/35/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.93604, 1.07347 ), Vector2( 0.93604, 1.07347 ), Vector2( 0.93604, 1.07347 ), Vector2( 0.93604, 1.07347 ) ]
+}
+tracks/36/type = "value"
+tracks/36/path = NodePath("boobies/head/ear:transform/pos")
+tracks/36/interp = 1
+tracks/36/imported = false
+tracks/36/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -28.4781, -27.0272 ), Vector2( -28.4781, -27.0272 ) ]
+}
+tracks/37/type = "value"
+tracks/37/path = NodePath("boobies/head/ear:transform/rot")
+tracks/37/interp = 1
+tracks/37/imported = false
+tracks/37/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/38/type = "value"
+tracks/38/path = NodePath("boobies/head/ear:transform/scale")
+tracks/38/interp = 1
+tracks/38/imported = false
+tracks/38/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/39/type = "value"
+tracks/39/path = NodePath("boobies/head/mouth:transform/pos")
+tracks/39/interp = 1
+tracks/39/imported = false
+tracks/39/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 17.8428, -10.2221 ), Vector2( 20.8844, -9.19035 ) ]
+}
+tracks/40/type = "value"
+tracks/40/path = NodePath("boobies/head/mouth:transform/rot")
+tracks/40/interp = 1
+tracks/40/imported = false
+tracks/40/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ 11.4784, 19.5636 ]
+}
+tracks/41/type = "value"
+tracks/41/path = NodePath("boobies/head/mouth:transform/scale")
+tracks/41/interp = 1
+tracks/41/imported = false
+tracks/41/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/42/type = "value"
+tracks/42/path = NodePath("boobies/rightbicep/rightforearm/Position2D:transform/pos")
+tracks/42/interp = 1
+tracks/42/imported = false
+tracks/42/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 36.2072, 31.1884 ), Vector2( 36.2072, 31.1884 ) ]
+}
+tracks/43/type = "value"
+tracks/43/path = NodePath("boobies/rightbicep/rightforearm/Position2D:transform/rot")
+tracks/43/interp = 1
+tracks/43/imported = false
+tracks/43/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/44/type = "value"
+tracks/44/path = NodePath("boobies/rightbicep/rightforearm/Position2D:transform/scale")
+tracks/44/interp = 1
+tracks/44/imported = false
+tracks/44/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/45/type = "value"
+tracks/45/path = NodePath("boobies/rightbicep/rightforearm:transform/pos")
+tracks/45/interp = 1
+tracks/45/imported = false
+tracks/45/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 0.9, 1, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 23.1226, 18.95 ), Vector2( 23.1226, 18.95 ), Vector2( 56.1272, 64.9494 ), Vector2( -35.0868, 52.4106 ), Vector2( 86.1394, -24.5816 ), Vector2( 21.0938, 26.4698 ) ]
+}
+tracks/46/type = "value"
+tracks/46/path = NodePath("boobies/rightbicep/rightforearm:transform/rot")
+tracks/46/interp = 1
+tracks/46/imported = false
+tracks/46/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 0.9, 1, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 37.9718, 37.9718, 1.77209, -3.88521, -69.8341, 45.9807 ]
+}
+tracks/47/type = "value"
+tracks/47/path = NodePath("boobies/rightbicep/rightforearm:transform/scale")
+tracks/47/interp = 1
+tracks/47/imported = false
+tracks/47/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 0.9, 1, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.68693, 1.091 ), Vector2( 0.68693, 1.091 ), Vector2( 0.68693, 1.091 ), Vector2( 0.68693, 1.091 ), Vector2( 0.68693, 1.091 ), Vector2( 0.68693, 1.091 ) ]
+}
+tracks/48/type = "value"
+tracks/48/path = NodePath("boobies/head/lefteye:transform/pos")
+tracks/48/interp = 1
+tracks/48/imported = false
+tracks/48/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -1.78589, -38.7881 ), Vector2( 0.353836, -33.9827 ) ]
+}
+tracks/49/type = "value"
+tracks/49/path = NodePath("boobies/head/lefteye:transform/rot")
+tracks/49/interp = 1
+tracks/49/imported = false
+tracks/49/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 9.3083 ]
+}
+tracks/50/type = "value"
+tracks/50/path = NodePath("boobies/head/lefteye:transform/scale")
+tracks/50/interp = 1
+tracks/50/imported = false
+tracks/50/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1.19956, 0.971354 ), Vector2( 1, 1 ) ]
+}
+tracks/51/type = "value"
+tracks/51/path = NodePath("boobies/head/righteye:transform/pos")
+tracks/51/interp = 1
+tracks/51/imported = false
+tracks/51/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 23.6266, -40.4094 ), Vector2( 22.2383, -38.459 ) ]
+}
+tracks/52/type = "value"
+tracks/52/path = NodePath("boobies/head/righteye:transform/rot")
+tracks/52/interp = 1
+tracks/52/imported = false
+tracks/52/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 12.3437 ]
+}
+tracks/53/type = "value"
+tracks/53/path = NodePath("boobies/head/righteye:transform/scale")
+tracks/53/interp = 1
+tracks/53/imported = false
+tracks/53/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1.1224, 1.00186 ), Vector2( 1, 1 ) ]
+}
+tracks/54/type = "value"
+tracks/54/path = NodePath("boobies/head/fronthair:transform/pos")
+tracks/54/interp = 1
+tracks/54/imported = false
+tracks/54/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -11.4656, -61.5339 ), Vector2( -15.7782, -66.7313 ) ]
+}
+tracks/55/type = "value"
+tracks/55/path = NodePath("boobies/head/fronthair:transform/rot")
+tracks/55/interp = 1
+tracks/55/imported = false
+tracks/55/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ 15.5413, 25.8356 ]
+}
+tracks/56/type = "value"
+tracks/56/path = NodePath("boobies/head/fronthair:transform/scale")
+tracks/56/interp = 1
+tracks/56/imported = false
+tracks/56/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1.13763, 0.911542 ), Vector2( 1.30384, 0.957336 ) ]
+}
+tracks/57/type = "value"
+tracks/57/path = NodePath("boobies/head/lefteyebrow:transform/pos")
+tracks/57/interp = 1
+tracks/57/imported = false
+tracks/57/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -21.708, -71.392 ), Vector2( -15.3011, -58.2691 ) ]
+}
+tracks/58/type = "value"
+tracks/58/path = NodePath("boobies/head/lefteyebrow:transform/rot")
+tracks/58/interp = 1
+tracks/58/imported = false
+tracks/58/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ 38.8462, 28.056 ]
+}
+tracks/59/type = "value"
+tracks/59/path = NodePath("boobies/head/lefteyebrow:transform/scale")
+tracks/59/interp = 1
+tracks/59/imported = false
+tracks/59/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1.27233, 1 ), Vector2( 1.27233, 1 ) ]
+}
+tracks/60/type = "value"
+tracks/60/path = NodePath("boobies/head/hair:transform/pos")
+tracks/60/interp = 1
+tracks/60/imported = false
+tracks/60/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 5.25262, -36.514 ), Vector2( 5.25262, -36.514 ) ]
+}
+tracks/61/type = "value"
+tracks/61/path = NodePath("boobies/head/hair:transform/rot")
+tracks/61/interp = 1
+tracks/61/imported = false
+tracks/61/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/62/type = "value"
+tracks/62/path = NodePath("boobies/head/hair:transform/scale")
+tracks/62/interp = 1
+tracks/62/imported = false
+tracks/62/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/63/type = "value"
+tracks/63/path = NodePath("boobies/head/lefteye/leftpupil:transform/pos")
+tracks/63/interp = 1
+tracks/63/imported = false
+tracks/63/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 9.6301, 5.61429 ), Vector2( 9.75708, 6.94373 ) ]
+}
+tracks/64/type = "value"
+tracks/64/path = NodePath("boobies/head/lefteye/leftpupil:transform/rot")
+tracks/64/interp = 1
+tracks/64/imported = false
+tracks/64/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ 1.29853, 0.0 ]
+}
+tracks/65/type = "value"
+tracks/65/path = NodePath("boobies/head/lefteye/leftpupil:transform/scale")
+tracks/65/interp = 1
+tracks/65/imported = false
+tracks/65/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.745699, 0.58819 ), Vector2( 0.625849, 0.418774 ) ]
+}
+tracks/66/type = "value"
+tracks/66/path = NodePath("boobies/rightbicep:transform/pos")
+tracks/66/interp = 1
+tracks/66/imported = false
+tracks/66/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 13.9136, -20.954 ), Vector2( 13.9136, -20.954 ), Vector2( 62.4376, -38.5626 ), Vector2( 7.44628, -115.296 ) ]
+}
+tracks/67/type = "value"
+tracks/67/path = NodePath("boobies/rightbicep:transform/rot")
+tracks/67/interp = 1
+tracks/67/imported = false
+tracks/67/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 6.7587, 6.7587, 18.4923, -62.5068 ]
+}
+tracks/68/type = "value"
+tracks/68/path = NodePath("boobies/rightbicep:transform/scale")
+tracks/68/interp = 1
+tracks/68/imported = false
+tracks/68/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/69/type = "value"
+tracks/69/path = NodePath("boobies/belly/pantsu/leftthigh/leftshin/Position2D:transform/pos")
+tracks/69/interp = 1
+tracks/69/imported = false
+tracks/69/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -4.66034, 85.6784 ), Vector2( -4.66034, 85.6784 ) ]
+}
+tracks/70/type = "value"
+tracks/70/path = NodePath("boobies/belly/pantsu/leftthigh/leftshin/Position2D:transform/rot")
+tracks/70/interp = 1
+tracks/70/imported = false
+tracks/70/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/71/type = "value"
+tracks/71/path = NodePath("boobies/belly/pantsu/leftthigh/leftshin/Position2D:transform/scale")
+tracks/71/interp = 1
+tracks/71/imported = false
+tracks/71/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/72/type = "value"
+tracks/72/path = NodePath("boobies/leftbicep:transform/pos")
+tracks/72/interp = 1
+tracks/72/imported = false
+tracks/72/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -22.7879, -29.4038 ), Vector2( -22.7879, -29.4038 ), Vector2( -73.3008, -48.323 ), Vector2( -25.5474, -7.58431 ) ]
+}
+tracks/73/type = "value"
+tracks/73/path = NodePath("boobies/leftbicep:transform/rot")
+tracks/73/interp = 1
+tracks/73/imported = false
+tracks/73/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 29.2649, 110.016, -14.2094, 31.5707 ]
+}
+tracks/74/type = "value"
+tracks/74/path = NodePath("boobies/leftbicep:transform/scale")
+tracks/74/interp = 1
+tracks/74/imported = false
+tracks/74/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/75/type = "value"
+tracks/75/path = NodePath("boobies/belly/pantsu:transform/pos")
+tracks/75/interp = 1
+tracks/75/imported = false
+tracks/75/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -1.6851, 24.2402 ), Vector2( -1.6851, 24.2402 ) ]
+}
+tracks/76/type = "value"
+tracks/76/path = NodePath("boobies/belly/pantsu:transform/rot")
+tracks/76/interp = 1
+tracks/76/imported = false
+tracks/76/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ -4.17178, -4.17178 ]
+}
+tracks/77/type = "value"
+tracks/77/path = NodePath("boobies/belly/pantsu:transform/scale")
+tracks/77/interp = 1
+tracks/77/imported = false
+tracks/77/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/78/type = "value"
+tracks/78/path = NodePath("boobies/head/hair/bang:transform/pos")
+tracks/78/interp = 1
+tracks/78/imported = false
+tracks/78/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -1.71524, -27.5389 ), Vector2( -2.6561, -24.4539 ) ]
+}
+tracks/79/type = "value"
+tracks/79/path = NodePath("boobies/head/hair/bang:transform/rot")
+tracks/79/interp = 1
+tracks/79/imported = false
+tracks/79/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ -5.69199, 4.42241 ]
+}
+tracks/80/type = "value"
+tracks/80/path = NodePath("boobies/head/hair/bang:transform/scale")
+tracks/80/interp = 1
+tracks/80/imported = false
+tracks/80/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1.28448, 1.06144 ), Vector2( 1.47956, 1.03009 ) ]
+}
+tracks/81/type = "value"
+tracks/81/path = NodePath("boobies/head/nose:transform/pos")
+tracks/81/interp = 1
+tracks/81/imported = false
+tracks/81/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 24.0132, -23.2451 ), Vector2( 22.8831, -22.875 ) ]
+}
+tracks/82/type = "value"
+tracks/82/path = NodePath("boobies/head/nose:transform/rot")
+tracks/82/interp = 1
+tracks/82/imported = false
+tracks/82/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ -8.43417, 15.8928 ]
+}
+tracks/83/type = "value"
+tracks/83/path = NodePath("boobies/head/nose:transform/scale")
+tracks/83/interp = 1
+tracks/83/imported = false
+tracks/83/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/84/type = "value"
+tracks/84/path = NodePath("boobies/head/righteyebrow:transform/pos")
+tracks/84/interp = 1
+tracks/84/imported = false
+tracks/84/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 29.3685, -79.274 ), Vector2( 28.2307, -62.0211 ) ]
+}
+tracks/85/type = "value"
+tracks/85/path = NodePath("boobies/head/righteyebrow:transform/rot")
+tracks/85/interp = 1
+tracks/85/imported = false
+tracks/85/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ -10.2841, -6.8771 ]
+}
+tracks/86/type = "value"
+tracks/86/path = NodePath("boobies/head/righteyebrow:transform/scale")
+tracks/86/interp = 1
+tracks/86/imported = false
+tracks/86/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.879973, 1 ), Vector2( 0.879973, 1 ) ]
+}
+tracks/87/type = "value"
+tracks/87/path = NodePath("boobies/belly/pantsu/rightthigh:transform/pos")
+tracks/87/interp = 1
+tracks/87/imported = false
+tracks/87/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 5.95514, 0.326952 ), Vector2( 5.95514, 0.326952 ), Vector2( 115.418, -7.30368 ), Vector2( 105.759, 36.3623 ) ]
+}
+tracks/88/type = "value"
+tracks/88/path = NodePath("boobies/belly/pantsu/rightthigh:transform/rot")
+tracks/88/interp = 1
+tracks/88/imported = false
+tracks/88/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 59.5907, 59.5907, 59.5907, 232.47 ]
+}
+tracks/89/type = "value"
+tracks/89/path = NodePath("boobies/belly/pantsu/rightthigh:transform/scale")
+tracks/89/interp = 1
+tracks/89/imported = false
+tracks/89/keys = {
+"times": FloatArray( 0, 0.4, 0.7, 1.1 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.917326, 1 ), Vector2( 0.917326, 1 ), Vector2( 0.917326, 1 ), Vector2( 0.917326, 1 ) ]
+}
+tracks/90/type = "value"
+tracks/90/path = NodePath("boobies/head/righteye/rightpupil:transform/pos")
+tracks/90/interp = 1
+tracks/90/imported = false
+tracks/90/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -4.94304, 6.06783 ), Vector2( -5.03151, 5.84144 ) ]
+}
+tracks/91/type = "value"
+tracks/91/path = NodePath("boobies/head/righteye/rightpupil:transform/rot")
+tracks/91/interp = 1
+tracks/91/imported = false
+tracks/91/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/92/type = "value"
+tracks/92/path = NodePath("boobies/head/righteye/rightpupil:transform/scale")
+tracks/92/interp = 1
+tracks/92/imported = false
+tracks/92/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.60616, 0.541868 ), Vector2( 0.522295, 0.407149 ) ]
+}
+tracks/93/type = "value"
+tracks/93/path = NodePath("boobies/leftshoulder:transform/pos")
+tracks/93/interp = 1
+tracks/93/imported = false
+tracks/93/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -21.4046, -29.3856 ), Vector2( -21.4046, -29.3856 ) ]
+}
+tracks/94/type = "value"
+tracks/94/path = NodePath("boobies/leftshoulder:transform/rot")
+tracks/94/interp = 1
+tracks/94/imported = false
+tracks/94/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/95/type = "value"
+tracks/95/path = NodePath("boobies/leftshoulder:transform/scale")
+tracks/95/interp = 1
+tracks/95/imported = false
+tracks/95/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/96/type = "value"
+tracks/96/path = NodePath("boobies/head/hair/lefthair:transform/pos")
+tracks/96/interp = 1
+tracks/96/imported = false
+tracks/96/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -21.4679, -21.7743 ), Vector2( -21.7186, -17.7521 ) ]
+}
+tracks/97/type = "value"
+tracks/97/path = NodePath("boobies/head/hair/lefthair:transform/rot")
+tracks/97/interp = 1
+tracks/97/imported = false
+tracks/97/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 17.997 ]
+}
+tracks/98/type = "value"
+tracks/98/path = NodePath("boobies/head/hair/lefthair:transform/scale")
+tracks/98/interp = 1
+tracks/98/imported = false
+tracks/98/keys = {
+"times": FloatArray( 0, 0.4 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.977942, 1.05248 ), Vector2( 0.956831, 1.09094 ) ]
+}
+tracks/99/type = "value"
+tracks/99/path = NodePath("boobies/head/mouth:flip_v")
+tracks/99/interp = 1
+tracks/99/imported = false
+tracks/99/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=3]
+
+length = 0.9
+loop = true
+step = 0.05
+tracks/0/type = "value"
+tracks/0/path = NodePath("boobies/rightbicep:transform/pos")
+tracks/0/interp = 1
+tracks/0/imported = false
+tracks/0/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 13.9136, -20.954 ), Vector2( 13.1653, -26.7409 ), Vector2( 12.9515, -28.3942 ), Vector2( 13.6998, -22.6074 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("boobies/rightbicep:transform/rot")
+tracks/1/interp = 1
+tracks/1/imported = false
+tracks/1/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -45.1968, -36.6426, 23.8682, 18.0466 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("boobies/rightbicep:transform/scale")
+tracks/2/interp = 1
+tracks/2/imported = false
+tracks/2/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("boobies/rightbicep/rightforearm:transform/pos")
+tracks/3/interp = 1
+tracks/3/imported = false
+tracks/3/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 23.1226, 18.95 ), Vector2( 23.7669, 22.8157 ), Vector2( 23.951, 23.9202 ), Vector2( 23.3067, 20.0545 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("boobies/rightbicep/rightforearm:transform/rot")
+tracks/4/interp = 1
+tracks/4/imported = false
+tracks/4/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 55.9447, 31.985, 113.618, 121.998 ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("boobies/rightbicep/rightforearm:transform/scale")
+tracks/5/interp = 1
+tracks/5/imported = false
+tracks/5/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.68693, 1.091 ), Vector2( 0.744539, 1.04675 ), Vector2( 0.760999, 1.03411 ), Vector2( 0.70339, 1.07836 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("boobies:transform/pos")
+tracks/6/interp = 1
+tracks/6/imported = false
+tracks/6/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 3.42566, -6.63197 ), Vector2( 3.09044, -7.99341 ), Vector2( -4.70342, -13.7711 ), Vector2( 1.6192, -8.21843 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("boobies:transform/rot")
+tracks/7/interp = 1
+tracks/7/imported = false
+tracks/7/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -20.3033, -21.3956, -35.9779, -35.6752 ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("boobies:transform/scale")
+tracks/8/interp = 1
+tracks/8/imported = false
+tracks/8/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1.11924, 0.930017 ), Vector2( 1.0265, 0.984448 ) ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("boobies/leftbicep/leftforearm/Position2D:transform/pos")
+tracks/9/interp = 1
+tracks/9/imported = false
+tracks/9/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( -33.9808, 38.6037 ) ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("boobies/leftbicep/leftforearm/Position2D:transform/rot")
+tracks/10/interp = 1
+tracks/10/imported = false
+tracks/10/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/11/type = "value"
+tracks/11/path = NodePath("boobies/leftbicep/leftforearm/Position2D:transform/scale")
+tracks/11/interp = 1
+tracks/11/imported = false
+tracks/11/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/12/type = "value"
+tracks/12/path = NodePath("boobies/leftbicep/leftforearm:transform/pos")
+tracks/12/interp = 1
+tracks/12/imported = false
+tracks/12/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -34.3019, 20.3991 ), Vector2( -34.3019, 20.3991 ), Vector2( -34.3019, 20.3991 ), Vector2( -34.3019, 20.3991 ) ]
+}
+tracks/13/type = "value"
+tracks/13/path = NodePath("boobies/leftbicep/leftforearm:transform/rot")
+tracks/13/interp = 1
+tracks/13/imported = false
+tracks/13/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 83.0352, 85.0492, 42.9638, 37.5491 ]
+}
+tracks/14/type = "value"
+tracks/14/path = NodePath("boobies/leftbicep/leftforearm:transform/scale")
+tracks/14/interp = 1
+tracks/14/imported = false
+tracks/14/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.93604, 1.07347 ), Vector2( 0.93604, 1.07347 ), Vector2( 0.93604, 1.07347 ), Vector2( 0.93604, 1.07347 ) ]
+}
+tracks/15/type = "value"
+tracks/15/path = NodePath("boobies/belly:transform/pos")
+tracks/15/interp = 1
+tracks/15/imported = false
+tracks/15/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.4706, 8.61083 ), Vector2( -0.0727931, 7.34486 ), Vector2( -0.228048, 6.98316 ), Vector2( 0.178344, 7.35827 ) ]
+}
+tracks/16/type = "value"
+tracks/16/path = NodePath("boobies/belly:transform/rot")
+tracks/16/interp = 1
+tracks/16/imported = false
+tracks/16/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -11.5219, -6.42378, 14.9192, 15.78 ]
+}
+tracks/17/type = "value"
+tracks/17/path = NodePath("boobies/belly:transform/scale")
+tracks/17/interp = 1
+tracks/17/imported = false
+tracks/17/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 0.885139, 1.02403 ), Vector2( 0.974475, 1.00534 ) ]
+}
+tracks/18/type = "value"
+tracks/18/path = NodePath("boobies/head/hair/bang:transform/pos")
+tracks/18/interp = 1
+tracks/18/imported = false
+tracks/18/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -1.71524, -27.5389 ), Vector2( -0.123369, -29.673 ), Vector2( -0.596436, -28.1919 ), Vector2( -2.24265, -25.6614 ) ]
+}
+tracks/19/type = "value"
+tracks/19/path = NodePath("boobies/head/hair/bang:transform/rot")
+tracks/19/interp = 1
+tracks/19/imported = false
+tracks/19/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -5.69199, -4.60675, 16.1227, 17.3199 ]
+}
+tracks/20/type = "value"
+tracks/20/path = NodePath("boobies/head/hair/bang:transform/scale")
+tracks/20/interp = 1
+tracks/20/imported = false
+tracks/20/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1.28448, 1.06144 ), Vector2( 1.16575, 0.998339 ), Vector2( 1, 0.886058 ), Vector2( 0.987375, 1.07162 ) ]
+}
+tracks/21/type = "value"
+tracks/21/path = NodePath("boobies/head/ear:transform/pos")
+tracks/21/interp = 1
+tracks/21/imported = false
+tracks/21/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( -28.4781, -27.0272 ) ]
+}
+tracks/22/type = "value"
+tracks/22/path = NodePath("boobies/head/ear:transform/rot")
+tracks/22/interp = 1
+tracks/22/imported = false
+tracks/22/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/23/type = "value"
+tracks/23/path = NodePath("boobies/head/ear:transform/scale")
+tracks/23/interp = 1
+tracks/23/imported = false
+tracks/23/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/24/type = "value"
+tracks/24/path = NodePath("boobies/head/fronthair:transform/pos")
+tracks/24/interp = 1
+tracks/24/imported = false
+tracks/24/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -11.4656, -61.5339 ), Vector2( -11.325, -63.5196 ), Vector2( -9.34423, -64.7876 ), Vector2( -3.20939, -62.9042 ) ]
+}
+tracks/25/type = "value"
+tracks/25/path = NodePath("boobies/head/fronthair:transform/rot")
+tracks/25/interp = 1
+tracks/25/imported = false
+tracks/25/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 15.5413, 16.2463, 12.6928, -5.42092 ]
+}
+tracks/26/type = "value"
+tracks/26/path = NodePath("boobies/head/fronthair:transform/scale")
+tracks/26/interp = 1
+tracks/26/imported = false
+tracks/26/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1.13763, 0.911542 ), Vector2( 1.18574, 0.911105 ), Vector2( 1.07049, 0.864013 ), Vector2( 1.04417, 1.03803 ) ]
+}
+tracks/27/type = "value"
+tracks/27/path = NodePath("boobies/head:transform/pos")
+tracks/27/interp = 1
+tracks/27/imported = false
+tracks/27/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -2.94037, -45.5758 ), Vector2( -0.534487, -43.926 ), Vector2( 0.152908, -43.4546 ), Vector2( 0.584085, -43.7513 ) ]
+}
+tracks/28/type = "value"
+tracks/28/path = NodePath("boobies/head:transform/rot")
+tracks/28/interp = 1
+tracks/28/imported = false
+tracks/28/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 10.9721, 10.5126, 30.0325, 31.1644 ]
+}
+tracks/29/type = "value"
+tracks/29/path = NodePath("boobies/head:transform/scale")
+tracks/29/interp = 1
+tracks/29/imported = false
+tracks/29/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 0.950484, 1.02996 ), Vector2( 0.936337, 1.03852 ), Vector2( 0.985853, 1.00856 ) ]
+}
+tracks/30/type = "value"
+tracks/30/path = NodePath("boobies/belly/pantsu/rightthigh:transform/pos")
+tracks/30/interp = 1
+tracks/30/imported = false
+tracks/30/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 5.95514, 0.326952 ), Vector2( 10.238, -2.25 ), Vector2( 14.5647, 1.15455 ), Vector2( 13.0775, -2.60116 ) ]
+}
+tracks/31/type = "value"
+tracks/31/path = NodePath("boobies/belly/pantsu/rightthigh:transform/rot")
+tracks/31/interp = 1
+tracks/31/imported = false
+tracks/31/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 59.5907, 38.3813, -26.8726, -32.0968 ]
+}
+tracks/32/type = "value"
+tracks/32/path = NodePath("boobies/belly/pantsu/rightthigh:transform/scale")
+tracks/32/interp = 1
+tracks/32/imported = false
+tracks/32/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.917326, 1 ), Vector2( 0.91074, 1.19189 ), Vector2( 0.917326, 1.11288 ), Vector2( 1.02834, 1.02508 ) ]
+}
+tracks/33/type = "value"
+tracks/33/path = NodePath("boobies/head/lefteye:transform/pos")
+tracks/33/interp = 1
+tracks/33/imported = false
+tracks/33/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 2.35389, -39.9397 ) ]
+}
+tracks/34/type = "value"
+tracks/34/path = NodePath("boobies/head/lefteye:transform/rot")
+tracks/34/interp = 1
+tracks/34/imported = false
+tracks/34/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/35/type = "value"
+tracks/35/path = NodePath("boobies/head/lefteye:transform/scale")
+tracks/35/interp = 1
+tracks/35/imported = false
+tracks/35/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/36/type = "value"
+tracks/36/path = NodePath("boobies/leftbicep:transform/pos")
+tracks/36/interp = 1
+tracks/36/imported = false
+tracks/36/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -22.7879, -29.4038 ), Vector2( -22.7879, -29.4038 ), Vector2( -22.7879, -29.4038 ), Vector2( -22.7879, -29.4038 ) ]
+}
+tracks/37/type = "value"
+tracks/37/path = NodePath("boobies/leftbicep:transform/rot")
+tracks/37/interp = 1
+tracks/37/imported = false
+tracks/37/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 71.0335, 78.592, -21.0164, -19.418 ]
+}
+tracks/38/type = "value"
+tracks/38/path = NodePath("boobies/leftbicep:transform/scale")
+tracks/38/interp = 1
+tracks/38/imported = false
+tracks/38/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/39/type = "value"
+tracks/39/path = NodePath("boobies/head/righteyebrow:transform/pos")
+tracks/39/interp = 1
+tracks/39/imported = false
+tracks/39/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 26.8382, -79.6917 ), Vector2( 25.3399, -78.3581 ), Vector2( 22.3744, -63.8937 ), Vector2( 20.1953, -64.1448 ) ]
+}
+tracks/40/type = "value"
+tracks/40/path = NodePath("boobies/head/righteyebrow:transform/rot")
+tracks/40/interp = 1
+tracks/40/imported = false
+tracks/40/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -21.7979, -13.8889, 28.0879, 35.8717 ]
+}
+tracks/41/type = "value"
+tracks/41/path = NodePath("boobies/head/righteyebrow:transform/scale")
+tracks/41/interp = 1
+tracks/41/imported = false
+tracks/41/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/42/type = "value"
+tracks/42/path = NodePath("boobies/head/hair/lefthair:transform/pos")
+tracks/42/interp = 1
+tracks/42/imported = false
+tracks/42/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -19.573, -20.2976 ), Vector2( -18.9663, -22.3766 ), Vector2( -20.6376, -19.3916 ), Vector2( -16.2492, -25.2606 ) ]
+}
+tracks/43/type = "value"
+tracks/43/path = NodePath("boobies/head/hair/lefthair:transform/rot")
+tracks/43/interp = 1
+tracks/43/imported = false
+tracks/43/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 2.83348, -7.95187, -15.1938 ]
+}
+tracks/44/type = "value"
+tracks/44/path = NodePath("boobies/head/hair/lefthair:transform/scale")
+tracks/44/interp = 1
+tracks/44/imported = false
+tracks/44/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.977942, 1.05248 ), Vector2( 1.09384, 1.05066 ), Vector2( 1.19336, 1.07006 ), Vector2( 1.27751, 1.12823 ) ]
+}
+tracks/45/type = "value"
+tracks/45/path = NodePath("boobies/belly/pantsu/leftthigh/leftshin:transform/pos")
+tracks/45/interp = 1
+tracks/45/imported = false
+tracks/45/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0, 31.6091 ), Vector2( -2.22431, 35.92 ), Vector2( 0.653897, 37.402 ), Vector2( -0.179462, 33.2584 ) ]
+}
+tracks/46/type = "value"
+tracks/46/path = NodePath("boobies/belly/pantsu/leftthigh/leftshin:transform/rot")
+tracks/46/interp = 1
+tracks/46/imported = false
+tracks/46/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 14.7574, -1.48898, -59.8392, -56.912 ]
+}
+tracks/47/type = "value"
+tracks/47/path = NodePath("boobies/belly/pantsu/leftthigh/leftshin:transform/scale")
+tracks/47/interp = 1
+tracks/47/imported = false
+tracks/47/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1.09451, 0.996012 ), Vector2( 0.920713, 1.03838 ), Vector2( 0.819224, 0.955485 ) ]
+}
+tracks/48/type = "value"
+tracks/48/path = NodePath("boobies/belly/pantsu/leftthigh:transform/pos")
+tracks/48/interp = 1
+tracks/48/imported = false
+tracks/48/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -12.7823, 7.19843 ), Vector2( -14.2077, 6.56493 ), Vector2( -14.5433, 0.508542 ), Vector2( -13.7695, 3.27287 ) ]
+}
+tracks/49/type = "value"
+tracks/49/path = NodePath("boobies/belly/pantsu/leftthigh:transform/rot")
+tracks/49/interp = 1
+tracks/49/imported = false
+tracks/49/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -5.76718, -0.698052, 51.509, 40.9963 ]
+}
+tracks/50/type = "value"
+tracks/50/path = NodePath("boobies/belly/pantsu/leftthigh:transform/scale")
+tracks/50/interp = 1
+tracks/50/imported = false
+tracks/50/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.948205, 1 ), Vector2( 0.810228, 0.946292 ), Vector2( 0.770806, 1.2508 ), Vector2( 0.687336, 1.27355 ) ]
+}
+tracks/51/type = "value"
+tracks/51/path = NodePath("boobies/head/lefteyebrow:transform/pos")
+tracks/51/interp = 1
+tracks/51/imported = false
+tracks/51/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 3.33808, -63.1449 ), Vector2( 1.4943, -64.3664 ), Vector2( -8.21335, -71.6504 ), Vector2( -9.21796, -71.9921 ) ]
+}
+tracks/52/type = "value"
+tracks/52/path = NodePath("boobies/head/lefteyebrow:transform/rot")
+tracks/52/interp = 1
+tracks/52/imported = false
+tracks/52/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -36.7343, -33.5197, -0.764587, 16.5579 ]
+}
+tracks/53/type = "value"
+tracks/53/path = NodePath("boobies/head/lefteyebrow:transform/scale")
+tracks/53/interp = 1
+tracks/53/imported = false
+tracks/53/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/54/type = "value"
+tracks/54/path = NodePath("boobies/leftshoulder:transform/pos")
+tracks/54/interp = 1
+tracks/54/imported = false
+tracks/54/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( -21.4046, -29.3856 ) ]
+}
+tracks/55/type = "value"
+tracks/55/path = NodePath("boobies/leftshoulder:transform/rot")
+tracks/55/interp = 1
+tracks/55/imported = false
+tracks/55/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/56/type = "value"
+tracks/56/path = NodePath("boobies/leftshoulder:transform/scale")
+tracks/56/interp = 1
+tracks/56/imported = false
+tracks/56/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/57/type = "value"
+tracks/57/path = NodePath("boobies/head/nose:transform/pos")
+tracks/57/interp = 1
+tracks/57/imported = false
+tracks/57/keys = {
+"times": FloatArray( 0, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 24.0132, -23.2451 ), Vector2( 24.0668, -24.2064 ), Vector2( 23.0273, -23.3622 ) ]
+}
+tracks/58/type = "value"
+tracks/58/path = NodePath("boobies/head/nose:transform/rot")
+tracks/58/interp = 1
+tracks/58/imported = false
+tracks/58/keys = {
+"times": FloatArray( 0, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1 ),
+"update": 0,
+"values": [ -8.43417, 4.58897, 3.87982 ]
+}
+tracks/59/type = "value"
+tracks/59/path = NodePath("boobies/head/nose:transform/scale")
+tracks/59/interp = 1
+tracks/59/imported = false
+tracks/59/keys = {
+"times": FloatArray( 0, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1.04899, 0.99654 ), Vector2( 1.01089, 0.999231 ) ]
+}
+tracks/60/type = "value"
+tracks/60/path = NodePath("boobies/head/mouth:transform/pos")
+tracks/60/interp = 1
+tracks/60/imported = false
+tracks/60/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 9.73248, -13.0606 ), Vector2( 10.5873, -12.0606 ), Vector2( 6.50285, -14.8176 ), Vector2( 5.96128, -14.153 ) ]
+}
+tracks/61/type = "value"
+tracks/61/path = NodePath("boobies/head/mouth:transform/rot")
+tracks/61/interp = 1
+tracks/61/imported = false
+tracks/61/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 2.93047, -16.5044, -13.6514 ]
+}
+tracks/62/type = "value"
+tracks/62/path = NodePath("boobies/head/mouth:transform/scale")
+tracks/62/interp = 1
+tracks/62/imported = false
+tracks/62/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 1, 1 ) ]
+}
+tracks/63/type = "value"
+tracks/63/path = NodePath("boobies/belly/pantsu:transform/pos")
+tracks/63/interp = 1
+tracks/63/imported = false
+tracks/63/keys = {
+"times": FloatArray( 0, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -1.6851, 24.2402 ), Vector2( -1.6851, 24.2402 ), Vector2( -0.8621, 21.6873 ) ]
+}
+tracks/64/type = "value"
+tracks/64/path = NodePath("boobies/belly/pantsu:transform/rot")
+tracks/64/interp = 1
+tracks/64/imported = false
+tracks/64/keys = {
+"times": FloatArray( 0, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1 ),
+"update": 0,
+"values": [ -4.17178, 2.8066, 7.56339 ]
+}
+tracks/65/type = "value"
+tracks/65/path = NodePath("boobies/belly/pantsu:transform/scale")
+tracks/65/interp = 1
+tracks/65/imported = false
+tracks/65/keys = {
+"times": FloatArray( 0, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 0.957032, 1 ) ]
+}
+tracks/66/type = "value"
+tracks/66/path = NodePath("boobies/head/righteye:transform/pos")
+tracks/66/interp = 1
+tracks/66/imported = false
+tracks/66/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 22.645, -40.2033 ) ]
+}
+tracks/67/type = "value"
+tracks/67/path = NodePath("boobies/head/righteye:transform/rot")
+tracks/67/interp = 1
+tracks/67/imported = false
+tracks/67/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/68/type = "value"
+tracks/68/path = NodePath("boobies/head/righteye:transform/scale")
+tracks/68/interp = 1
+tracks/68/imported = false
+tracks/68/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/69/type = "value"
+tracks/69/path = NodePath("boobies/head/hair/righthair:transform/pos")
+tracks/69/interp = 1
+tracks/69/imported = false
+tracks/69/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 7.66774, -7.81355 ), Vector2( 14.4356, -9.47967 ), Vector2( 15.0422, -10.7035 ), Vector2( 14.604, -11.0517 ) ]
+}
+tracks/70/type = "value"
+tracks/70/path = NodePath("boobies/head/hair/righthair:transform/rot")
+tracks/70/interp = 1
+tracks/70/imported = false
+tracks/70/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, -0.136187, 27.6304, 23.3848 ]
+}
+tracks/71/type = "value"
+tracks/71/path = NodePath("boobies/head/hair/righthair:transform/scale")
+tracks/71/interp = 1
+tracks/71/imported = false
+tracks/71/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.881182, 1.07944 ), Vector2( 1.06572, 1.00838 ), Vector2( 1.08501, 0.940696 ), Vector2( 1.07492, 1.04861 ) ]
+}
+tracks/72/type = "value"
+tracks/72/path = NodePath("boobies/rightshoulder:transform/pos")
+tracks/72/interp = 1
+tracks/72/imported = false
+tracks/72/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 9.42732, -28.8586 ) ]
+}
+tracks/73/type = "value"
+tracks/73/path = NodePath("boobies/rightshoulder:transform/rot")
+tracks/73/interp = 1
+tracks/73/imported = false
+tracks/73/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/74/type = "value"
+tracks/74/path = NodePath("boobies/rightshoulder:transform/scale")
+tracks/74/interp = 1
+tracks/74/imported = false
+tracks/74/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/75/type = "value"
+tracks/75/path = NodePath("boobies/belly/pantsu/rightthigh/rightshin:transform/pos")
+tracks/75/interp = 1
+tracks/75/imported = false
+tracks/75/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 11.6513, 37.0308 ), Vector2( 12.4196, 36.6821 ), Vector2( 11.822, 35.1114 ), Vector2( 10.0538, 34.5638 ) ]
+}
+tracks/76/type = "value"
+tracks/76/path = NodePath("boobies/belly/pantsu/rightthigh/rightshin:transform/rot")
+tracks/76/interp = 1
+tracks/76/imported = false
+tracks/76/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -47.0063, -40.3457, 22.6767, 20.5674 ]
+}
+tracks/77/type = "value"
+tracks/77/path = NodePath("boobies/belly/pantsu/rightthigh/rightshin:transform/scale")
+tracks/77/interp = 1
+tracks/77/imported = false
+tracks/77/keys = {
+"times": FloatArray( 0, 0.35, 0.45, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1.02287, 1.02178 ), Vector2( 0.893072, 0.790548 ), Vector2( 1.02287, 0.841462 ), Vector2( 0.851392, 0.883002 ) ]
+}
+tracks/78/type = "value"
+tracks/78/path = NodePath("boobies/rightbicep/rightforearm/Position2D:transform/pos")
+tracks/78/interp = 1
+tracks/78/imported = false
+tracks/78/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 36.2072, 31.1884 ) ]
+}
+tracks/79/type = "value"
+tracks/79/path = NodePath("boobies/rightbicep/rightforearm/Position2D:transform/rot")
+tracks/79/interp = 1
+tracks/79/imported = false
+tracks/79/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/80/type = "value"
+tracks/80/path = NodePath("boobies/rightbicep/rightforearm/Position2D:transform/scale")
+tracks/80/interp = 1
+tracks/80/imported = false
+tracks/80/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/81/type = "value"
+tracks/81/path = NodePath("boobies/belly/pantsu/rightthigh/rightshin/Position2D:transform/pos")
+tracks/81/interp = 1
+tracks/81/imported = false
+tracks/81/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( -11.1131, 85.6784 ) ]
+}
+tracks/82/type = "value"
+tracks/82/path = NodePath("boobies/belly/pantsu/rightthigh/rightshin/Position2D:transform/rot")
+tracks/82/interp = 1
+tracks/82/imported = false
+tracks/82/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/83/type = "value"
+tracks/83/path = NodePath("boobies/belly/pantsu/rightthigh/rightshin/Position2D:transform/scale")
+tracks/83/interp = 1
+tracks/83/imported = false
+tracks/83/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/84/type = "value"
+tracks/84/path = NodePath("boobies/head/hair:transform/pos")
+tracks/84/interp = 1
+tracks/84/imported = false
+tracks/84/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 5.25262, -36.514 ) ]
+}
+tracks/85/type = "value"
+tracks/85/path = NodePath("boobies/head/hair:transform/rot")
+tracks/85/interp = 1
+tracks/85/imported = false
+tracks/85/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/86/type = "value"
+tracks/86/path = NodePath("boobies/head/hair:transform/scale")
+tracks/86/interp = 1
+tracks/86/imported = false
+tracks/86/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/87/type = "value"
+tracks/87/path = NodePath("boobies/belly/pantsu/leftthigh/leftshin/Position2D:transform/pos")
+tracks/87/interp = 1
+tracks/87/imported = false
+tracks/87/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( -4.66034, 85.6784 ) ]
+}
+tracks/88/type = "value"
+tracks/88/path = NodePath("boobies/belly/pantsu/leftthigh/leftshin/Position2D:transform/rot")
+tracks/88/interp = 1
+tracks/88/imported = false
+tracks/88/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/89/type = "value"
+tracks/89/path = NodePath("boobies/belly/pantsu/leftthigh/leftshin/Position2D:transform/scale")
+tracks/89/interp = 1
+tracks/89/imported = false
+tracks/89/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/90/type = "value"
+tracks/90/path = NodePath("boobies/head/Position2D:transform/pos")
+tracks/90/interp = 1
+tracks/90/imported = false
+tracks/90/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 5.01862, -20.0753 ) ]
+}
+tracks/91/type = "value"
+tracks/91/path = NodePath("boobies/head/Position2D:transform/rot")
+tracks/91/interp = 1
+tracks/91/imported = false
+tracks/91/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/92/type = "value"
+tracks/92/path = NodePath("boobies/head/Position2D:transform/scale")
+tracks/92/interp = 1
+tracks/92/imported = false
+tracks/92/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+tracks/93/type = "value"
+tracks/93/path = NodePath("boobies/head/lefteye/leftpupil:transform/rot")
+tracks/93/interp = 1
+tracks/93/imported = false
+tracks/93/keys = {
+"times": FloatArray( 0, 0.45 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/94/type = "value"
+tracks/94/path = NodePath("boobies/head/righteye/rightpupil:transform/pos")
+tracks/94/interp = 1
+tracks/94/imported = false
+tracks/94/keys = {
+"times": FloatArray( 0, 0.45 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -3.37386, 5.84667 ), Vector2( -4.25975, 5.21082 ) ]
+}
+tracks/95/type = "value"
+tracks/95/path = NodePath("boobies/head/righteye/rightpupil:transform/scale")
+tracks/95/interp = 1
+tracks/95/imported = false
+tracks/95/keys = {
+"times": FloatArray( 0, 0.45 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 0.809853, 0.894946 ) ]
+}
+tracks/96/type = "value"
+tracks/96/path = NodePath("boobies/head/mouth:flip_v")
+tracks/96/interp = 1
+tracks/96/imported = false
+tracks/96/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/97/type = "value"
+tracks/97/path = NodePath("boobies/head/righteye/rightpupil:transform/rot")
+tracks/97/interp = 1
+tracks/97/imported = false
+tracks/97/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/98/type = "value"
+tracks/98/path = NodePath("boobies/head/lefteye/leftpupil:transform/pos")
+tracks/98/interp = 1
+tracks/98/imported = false
+tracks/98/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 8.53063, 7.40572 ) ]
+}
+tracks/99/type = "value"
+tracks/99/path = NodePath("boobies/head/lefteye/leftpupil:transform/scale")
+tracks/99/interp = 1
+tracks/99/imported = false
+tracks/99/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+
+[node name="LifeForce" type="Node2D"]
+
+[node name="boobies" type="Sprite" parent="."]
+
+transform/pos = Vector2( 3.42566, -6.63197 )
+transform/rot = 35.0467
+texture = ExtResource( 1 )
+offset = Vector2( 1.52171, -24.9058 )
+__meta__ = {
+"_edit_bone_": true
+}
+
+[node name="rightshoulder" type="Sprite" parent="boobies"]
+
+transform/pos = Vector2( 9.42732, -28.8586 )
+z/z = -1
+texture = ExtResource( 2 )
+
+[node name="belly" type="Sprite" parent="boobies"]
+
+transform/pos = Vector2( 3.08509, 5.82444 )
+transform/rot = -22.0348
+z/z = -1
+texture = ExtResource( 3 )
+offset = Vector2( -1.52964, 5.99547 )
+__meta__ = {
+"_edit_bone_": true
+}
+
+[node name="pantsu" type="Sprite" parent="boobies/belly"]
+
+transform/pos = Vector2( -1.6851, 24.2402 )
+transform/rot = -4.17178
+texture = ExtResource( 4 )
+__meta__ = {
+"_edit_bone_": true
+}
+
+[node name="rightthigh" type="Sprite" parent="boobies/belly/pantsu"]
+
+transform/pos = Vector2( 5.95514, 0.326952 )
+transform/rot = 59.5907
+transform/scale = Vector2( 0.917326, 1 )
+z/z = -1
+texture = ExtResource( 5 )
+offset = Vector2( -1.64075, 15.6483 )
+__meta__ = {
+"_edit_bone_": true
+}
+
+[node name="rightshin" type="Sprite" parent="boobies/belly/pantsu/rightthigh"]
+
+transform/pos = Vector2( 11.6513, 37.0308 )
+transform/rot = -66.6711
+transform/scale = Vector2( 1.02287, 1.02178 )
+texture = ExtResource( 6 )
+offset = Vector2( -6.17625, 41.8613 )
+__meta__ = {
+"_edit_bone_": true,
+"_edit_ik_": true
+}
+
+[node name="Position2D" type="Position2D" parent="boobies/belly/pantsu/rightthigh/rightshin"]
+
+transform/pos = Vector2( -11.1131, 85.6784 )
+__meta__ = {
+"_edit_bone_": true
+}
+
+[node name="leftthigh" type="Sprite" parent="boobies/belly/pantsu"]
+
+transform/pos = Vector2( -12.7823, 7.19843 )
+transform/rot = 7.5791
+transform/scale = Vector2( 0.948205, 1 )
+z/z = -1
+texture = ExtResource( 7 )
+offset = Vector2( 2.15983, 16.2446 )
+__meta__ = {
+"_edit_bone_": true
+}
+
+[node name="leftshin" type="Sprite" parent="boobies/belly/pantsu/leftthigh"]
+
+transform/pos = Vector2( 0, 31.6091 )
+transform/rot = 15.568
+texture = ExtResource( 8 )
+offset = Vector2( -0.475382, 42.3466 )
+__meta__ = {
+"_edit_bone_": true,
+"_edit_ik_": true
+}
+
+[node name="Position2D" type="Position2D" parent="boobies/belly/pantsu/leftthigh/leftshin"]
+
+transform/pos = Vector2( -4.66034, 85.6784 )
+__meta__ = {
+"_edit_bone_": true
+}
+
+[node name="rightbicep" type="Sprite" parent="boobies"]
+
+transform/pos = Vector2( 13.9136, -20.954 )
+transform/rot = 6.7587
+z/z = -3
+texture = ExtResource( 9 )
+offset = Vector2( 11.258, 9.08879 )
+__meta__ = {
+"_edit_bone_": true
+}
+
+[node name="rightforearm" type="Sprite" parent="boobies/rightbicep"]
+
+transform/pos = Vector2( 23.1226, 18.95 )
+transform/rot = 37.9718
+transform/scale = Vector2( 0.68693, 1.091 )
+texture = ExtResource( 10 )
+offset = Vector2( 19.9262, 16.6474 )
+__meta__ = {
+"_edit_bone_": true,
+"_edit_ik_": true
+}
+
+[node name="Position2D" type="Position2D" parent="boobies/rightbicep/rightforearm"]
+
+transform/pos = Vector2( 36.2072, 31.1884 )
+__meta__ = {
+"_edit_bone_": true
+}
+
+[node name="leftshoulder" type="Sprite" parent="boobies"]
+
+transform/pos = Vector2( -21.4046, -29.3856 )
+texture = ExtResource( 11 )
+
+[node name="leftbicep" type="Sprite" parent="boobies"]
+
+transform/pos = Vector2( -22.7879, -29.4038 )
+transform/rot = 29.2649
+texture = ExtResource( 12 )
+offset = Vector2( -17.8538, 12.4036 )
+__meta__ = {
+"_edit_bone_": true
+}
+
+[node name="leftforearm" type="Sprite" parent="boobies/leftbicep"]
+
+transform/pos = Vector2( -34.3019, 20.3991 )
+transform/rot = 34.5724
+transform/scale = Vector2( 0.93604, 1.07347 )
+texture = ExtResource( 13 )
+offset = Vector2( -19.4484, 21.5434 )
+__meta__ = {
+"_edit_bone_": true,
+"_edit_ik_": true
+}
+
+[node name="Position2D" type="Position2D" parent="boobies/leftbicep/leftforearm"]
+
+transform/pos = Vector2( -33.9808, 38.6037 )
+__meta__ = {
+"_edit_bone_": true
+}
+
+[node name="head" type="Sprite" parent="boobies"]
+
+transform/pos = Vector2( -2.94037, -45.5758 )
+transform/rot = -25.5399
+texture = ExtResource( 14 )
+offset = Vector2( 5.25262, -36.514 )
+__meta__ = {
+"_edit_bone_": true
+}
+
+[node name="hair" type="Node2D" parent="boobies/head"]
+
+transform/pos = Vector2( 5.25262, -36.514 )
+z/z = -1
+
+[node name="righthair" type="Sprite" parent="boobies/head/hair"]
+
+transform/pos = Vector2( 7.66774, -7.81355 )
+transform/scale = Vector2( 0.881182, 1.07944 )
+texture = ExtResource( 15 )
+offset = Vector2( 0.259357, 18.2851 )
+
+[node name="lefthair" type="Sprite" parent="boobies/head/hair"]
+
+transform/pos = Vector2( -21.4679, -21.7743 )
+transform/scale = Vector2( 0.977942, 1.05248 )
+texture = ExtResource( 16 )
+offset = Vector2( -5.66249, 16.926 )
+
+[node name="bang" type="Sprite" parent="boobies/head/hair"]
+
+transform/pos = Vector2( -1.71524, -27.5389 )
+transform/rot = -5.69199
+transform/scale = Vector2( 1.28448, 1.06144 )
+z/z = 1
+texture = ExtResource( 17 )
+offset = Vector2( 31.2579, 6.2466 )
+
+[node name="ear" type="Sprite" parent="boobies/head"]
+
+transform/pos = Vector2( -28.4781, -27.0272 )
+texture = ExtResource( 18 )
+
+[node name="mouth" type="Sprite" parent="boobies/head"]
+
+transform/pos = Vector2( 17.8428, -10.2221 )
+transform/rot = 11.4784
+texture = ExtResource( 19 )
+flip_v = true
+
+[node name="fronthair" type="Sprite" parent="boobies/head"]
+
+transform/pos = Vector2( -11.4656, -61.5339 )
+transform/rot = 15.5413
+transform/scale = Vector2( 1.13763, 0.911542 )
+texture = ExtResource( 20 )
+offset = Vector2( -5.03845, 17.2367 )
+
+[node name="righteye" type="Sprite" parent="boobies/head"]
+
+transform/pos = Vector2( 23.6266, -40.4094 )
+transform/scale = Vector2( 1.1224, 1.00186 )
+texture = ExtResource( 21 )
+
+[node name="rightpupil" type="Sprite" parent="boobies/head/righteye"]
+
+transform/pos = Vector2( -4.94304, 6.06783 )
+transform/scale = Vector2( 0.60616, 0.541868 )
+texture = ExtResource( 22 )
+
+[node name="lefteye" type="Sprite" parent="boobies/head"]
+
+transform/pos = Vector2( -1.78589, -38.7881 )
+transform/scale = Vector2( 1.19956, 0.971354 )
+texture = ExtResource( 23 )
+
+[node name="leftpupil" type="Sprite" parent="boobies/head/lefteye"]
+
+transform/pos = Vector2( 9.6301, 5.61429 )
+transform/rot = 1.29853
+transform/scale = Vector2( 0.745699, 0.58819 )
+texture = ExtResource( 24 )
+
+[node name="nose" type="Sprite" parent="boobies/head"]
+
+transform/pos = Vector2( 24.0132, -23.2451 )
+transform/rot = -8.43417
+texture = ExtResource( 25 )
+
+[node name="righteyebrow" type="Sprite" parent="boobies/head"]
+
+transform/pos = Vector2( 29.3685, -79.274 )
+transform/rot = -10.2841
+transform/scale = Vector2( 0.879973, 1 )
+texture = ExtResource( 26 )
+
+[node name="lefteyebrow" type="Sprite" parent="boobies/head"]
+
+transform/pos = Vector2( -21.708, -71.392 )
+transform/rot = 38.8462
+transform/scale = Vector2( 1.27233, 1 )
+texture = ExtResource( 27 )
+
+[node name="Position2D" type="Position2D" parent="boobies/head"]
+
+transform/pos = Vector2( 5.01862, -20.0753 )
+__meta__ = {
+"_edit_bone_": true
+}
+
+[node name="AniPlayer" type="AnimationPlayer" parent="."]
+
+playback/process_mode = 1
+playback/default_blend_time = 0.0
+root/root = NodePath("..")
+anims/default = SubResource( 1 )
+anims/die = SubResource( 2 )
+anims/run = SubResource( 3 )
+playback/active = true
+playback/speed = 1.5
+blend_times = [  ]
+autoplay = "run"
+
+
