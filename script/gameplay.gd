@@ -93,6 +93,8 @@ func _input(event):
 	elif event.is_action_pressed("selfdestruct"):
 		get_tree().quit()
 	elif !alive and deathTimer <= 0.0 and event.is_action_pressed("switch"):
+		playerNode.lifeAura.set_scale(Vector2(1.0, 1.0))
+		playerNode.deathAura.set_scale(Vector2(1.0, 1.0))
 		if highPrompt:
 			highPrompt = false
 			get_node("GGSprite").show()
