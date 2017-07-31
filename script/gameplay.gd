@@ -204,6 +204,7 @@ func _process(delta):
 				get_node("DeathBoom").set_opacity(deathTimer - 0.5)
 			deathTimer -= delta
 			camNode.set_offset(Vector2((randf() * 64.0 - 32.0) * deathTimer, (randf() * 64.0 - 32.0) * deathTimer))
+			camNode.set_rot((randf() * 0.0625 - 0.03125) * deathTimer)
 			if deathTimer <= 0.0:
 				scoreNode.set_text("PREV SCORE: " + str(score))
 				if score > highscore:
@@ -217,6 +218,7 @@ func _process(delta):
 				remove_child(get_node("LifeBoom"))
 				remove_child(get_node("DeathBoom"))
 				camNode.set_offset(Vector2(0.0, 0.0))
+				camNode.set_rot(0.0)
 				playerNode.lifeAura.show()
 				playerNode.deathAura.show()
 				playerNode.hide()
