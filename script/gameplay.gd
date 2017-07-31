@@ -160,11 +160,13 @@ func _process(delta):
 	if screenshake > 0.0:
 		screenshake -= delta
 		if screenshake <= 0.0:
+			camNode.set_rot(0.0)
 			camNode.set_offset(Vector2(0.0, 0.0))
 		else:
 			var shakeRate = 64.0
 			if score < 200:
 				shakeRate = score * 0.3 + 4.0
+			camNode.set_rot(randf() * shakeRate / 256.0 - shakeRate / 512.0)
 			camNode.set_offset(Vector2(randf() * shakeRate - shakeRate / 2.0, randf() * shakeRate - shakeRate / 2.0))
 	if alive:
 		updateBG(delta)

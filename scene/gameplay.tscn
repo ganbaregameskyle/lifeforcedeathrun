@@ -96,7 +96,7 @@ script/script = ExtResource( 1 )
 
 transform/pos = Vector2( 512, 300 )
 anchor_mode = 1
-rotating = false
+rotating = true
 current = true
 zoom = Vector2( 1, 1 )
 limit/left = -10000000
